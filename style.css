@@ -2,6 +2,47 @@ body {
     font-family: sans-serif;
 }
 
-.qq{
-    display: flex;
+p {
+    font-size: 20px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dotted black;
+    font-size: 20px;
+}
+
+.catalog {
+    width: 870px;
+    height: 250px;
+    background-color: rgb(223, 239, 255);
+}
+
+.product {
+    float: left;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double rgb(255, 132, 243);
+    margin: 40px 0px 40px 80px;
+    background-color:rgb(255, 208, 253) ;
+}
+.toys{
+       float: left;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double rgb(242, 141, 255);
+    margin: 40px 0px 40px 80px;
+    background-color:rgb(255, 210, 253) ;
+   }
+    .houes{
+        float: left;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double orange;
+    margin: 40px 0px 40px 80px;
+    background-color:bisque ;
+   }
